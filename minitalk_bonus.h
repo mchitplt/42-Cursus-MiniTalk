@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   minitalk_bonus.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mupolat <mupolat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/07 18:33:15 by mupolat           #+#    #+#             */
-/*   Updated: 2023/04/07 18:51:55 by mupolat          ###   ########.fr       */
+/*   Created: 2023/04/07 18:48:39 by mupolat           #+#    #+#             */
+/*   Updated: 2023/04/07 18:51:42 by mupolat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
+#ifndef MINITALK_BONUS_H
+# define MINITALK_BONUS_H
 
 # include   <unistd.h>
 # include   <stdlib.h>
