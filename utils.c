@@ -6,11 +6,11 @@
 /*   By: mupolat <mupolat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 17:36:41 by mupolat           #+#    #+#             */
-/*   Updated: 2023/04/07 18:38:31 by mupolat          ###   ########.fr       */
+/*   Updated: 2023/08/09 18:16:17 by mupolat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"minitalk.h"
+#include "minitalk.h"
 
 int	ft_atoi(const char *str)
 {

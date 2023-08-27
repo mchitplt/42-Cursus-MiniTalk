@@ -6,16 +6,16 @@
 /*   By: mupolat <mupolat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 18:33:15 by mupolat           #+#    #+#             */
-/*   Updated: 2023/04/07 18:51:55 by mupolat          ###   ########.fr       */
+/*   Updated: 2023/08/09 18:17:10 by mupolat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINITALK_H
 # define MINITALK_H
 
-# include   <unistd.h>
-# include   <stdlib.h>
-# include   <signal.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <signal.h>
 
 int		ft_atoi(const char *str);
 void	ft_putchar_fd(char c, int fd);

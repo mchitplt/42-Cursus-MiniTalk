@@ -6,11 +6,11 @@
 /*   By: mupolat <mupolat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 18:17:45 by mupolat           #+#    #+#             */
-/*   Updated: 2023/04/07 18:38:44 by mupolat          ###   ########.fr       */
+/*   Updated: 2023/08/19 18:50:20 by mupolat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"minitalk.h"
+#include "minitalk.h"
 
 void	convert_char(int data)
 {

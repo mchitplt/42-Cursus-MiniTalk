@@ -6,11 +6,11 @@
 /*   By: mupolat <mupolat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 18:32:53 by mupolat           #+#    #+#             */
-/*   Updated: 2023/04/07 18:50:46 by mupolat          ###   ########.fr       */
+/*   Updated: 2023/08/19 18:47:11 by mupolat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include	"minitalk.h"
+#include "minitalk.h"
 
 void	show_error(int err)
 {
@@ -41,7 +41,7 @@ void	show_error(int err)
 	}
 }
 
-void	ft_send_data(int data, int pid)
+void	send_data(int data, int pid)
 {
 	int		i;
 	char	c;
@@ -86,8 +86,8 @@ int	main(int ac, char **av)
 		str = av[2];
 		pid = ft_atoi(av[1]);
 		while (*(str))
-			ft_send_data(*(str)++, pid);
-		ft_send_data('\n', pid);
+			send_data(*(str)++, pid);
+		send_data('\n', pid);
 	}
 	else if (ac > 3)
 		show_error(4);
